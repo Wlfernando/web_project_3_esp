@@ -1,0 +1,6 @@
+.place {
+  display: grid;
+  grid-template-columns: 460px 460px;
+  grid-template-rows: auto 460px auto;
+  gap: 48px 40px;
+}
