@@ -1,7 +1,23 @@
 .intro__title {
   font-weight: 900;
   font-size: 54px;
-  line-height: 1;
+  line-height: 58px;
   padding-top: 92px;
   text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro__title {
+    width: 94%;
+    padding-top: 55px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__title {
+    width: 90%;
+    padding-top: 44px;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

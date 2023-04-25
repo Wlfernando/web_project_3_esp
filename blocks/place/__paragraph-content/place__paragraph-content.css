@@ -1,8 +1,15 @@
 .place__paragraph-content {
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 29px;
   display: flex;
   flex-direction: column;
   grid-row: span 2;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__paragraph-content {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }

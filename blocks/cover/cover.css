@@ -1,11 +1,15 @@
 .cover {
   width: 1184px;
   height: 740px;
-  padding-top: 92px;
+  margin-top: 105px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 32px;
-  position: relative;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url(../../images/cover/cover__background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }

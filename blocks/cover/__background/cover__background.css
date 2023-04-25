@@ -1,5 +1,8 @@
-.cover__background {
+ñ.cover__background {
   z-index: 0;
   opacity: .3;
   position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }

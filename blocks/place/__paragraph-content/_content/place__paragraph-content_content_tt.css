@@ -1,3 +1,15 @@
 .place__paragraph-content_content_tt {
   gap: 17px;
 }
+
+@media screen and (max-width: 1279px) {
+  .place__paragraph-content_content_tt {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph-content_content_tt {
+    gap: 0;
+  }
+}
