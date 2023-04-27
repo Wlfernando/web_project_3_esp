@@ -3,3 +3,15 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .footer {
+    padding-top: 64px;
+  }
+}

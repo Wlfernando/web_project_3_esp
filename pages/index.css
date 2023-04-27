@@ -16,7 +16,6 @@
 @import url(../blocks/intro/__quote-author/intro__quote-author.css);
 @import url(../blocks/intro/__paragraph/Intro__paragraph.css);
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
@@ -35,7 +34,6 @@
 @import url(../blocks/place/__paragraph-content/_content/place__paragraph-content_content_fam.css);
 @import url(../blocks/place/__title/_content/place__title_content_eu.css);
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/button/_place/button__place_cover.css);

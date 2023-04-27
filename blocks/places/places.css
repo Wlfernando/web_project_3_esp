@@ -5,6 +5,8 @@
   flex-direction: column-reverse;
   align-items: center;
   gap: 92px;
+  list-style-type: none;
+  padding-inline-start: 0;
 }
 
 @media screen and (max-width: 1023px) {

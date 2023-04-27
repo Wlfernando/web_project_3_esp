@@ -1,6 +1,8 @@
 .cover {
-  width: 1184px;
-  height: 740px;
+  width: 92.5vw;
+  max-width: 1184px;
+  min-width: 1184px;
+  padding: calc(34.32% / 2) 0;
   margin-top: 105px;
   display: flex;
   flex-direction: column;
@@ -14,14 +16,15 @@
   background-position: center;
 }
 
-@media screen and (max-width: 1279px) {
-  .cover {
-    height: 746px;
+@media screen and (max-width: 1183px) {
+.cover {
+    width: 100vw;
+    min-width: 320px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .cover {
-    height: 254px;
+    margin-top: 64px;
   }
 }
