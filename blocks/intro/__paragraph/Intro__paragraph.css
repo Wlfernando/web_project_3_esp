@@ -5,15 +5,8 @@
   margin-top: calc(42px - 20px);
 }
 
-@media screen and (max-width: 1279px) {
-  .intro__paragraph {
-    width: 94%;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .intro__paragraph {
     margin-top: 0;
-    width: 90%;
   }
 }

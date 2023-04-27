@@ -26,6 +26,7 @@
 @import url(../blocks/place/__item/place__item.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraph-content/place__paragraph-content.css);
+@import url(../blocks/place/__button/place__button.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/place/__paragraph-content/_content/place__paragraph-content_content_nd.css);
 @import url(../blocks/place/__paragraph-content/_content/place__paragraph-content_content_sw-kg.css);

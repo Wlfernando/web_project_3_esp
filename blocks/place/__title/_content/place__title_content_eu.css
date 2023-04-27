@@ -2,7 +2,7 @@
   width: 584px;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1023px) {
   .place__title_content_eu {
     width: 100%;
   }
