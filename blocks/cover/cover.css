@@ -1,6 +1,5 @@
 .cover {
-  width: 92.5vw;
-  width: 1184px;
+  min-width: 100%;
   padding: calc(38% / 2) 0;
   margin-top: 105px;
   display: flex;
@@ -28,13 +27,6 @@
 
 .cover:hover:after {
   filter: opacity(.2);
-}
-
-@media screen and (max-width: 1215px) {
-.cover {
-    width: calc(100vw - 25px);
-    min-width: 100%;
-  }
 }
 
 @media screen and (max-width: 1023px) {
