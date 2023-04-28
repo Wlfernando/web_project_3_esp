@@ -1,5 +1,9 @@
 .button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
   height: max-content;
   background-color: #0278FE;
   font-family: inherit;
@@ -11,7 +15,8 @@
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 350ms ease-out 0ms;
-  text-decoration-line: none;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 
 .button:hover {

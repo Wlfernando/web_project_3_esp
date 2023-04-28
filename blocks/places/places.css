@@ -5,7 +5,8 @@
   flex-direction: column-reverse;
   align-items: center;
   gap: 92px;
-  padding-inline-start: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
   list-style-type: none;
 }
 
