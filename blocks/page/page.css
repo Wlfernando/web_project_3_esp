@@ -1,6 +1,6 @@
 .page {
   min-width: 320px;
-  max-width: 1440px;
+  /* max-width: 1440px; casi lo dejo si no fuese por la lista de control jaja*/
   margin: 0 auto;
   font-family: "inter";
   background-color: #2A2C2F;

@@ -1,5 +1,6 @@
 .button {
-  width: 355px;
+  width: max-content;
+  height: max-content;
   background-color: #0278FE;
   font-family: inherit;
   color: inherit;
@@ -9,15 +10,20 @@
   line-height: 22px;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
+  z-index: 1;
+  transition: background-color 350ms ease-out 0ms;
+}
 
+.button:hover {
+  background: #0063D2;
 }
 
 @media screen and (max-width: 719px) {
   .button {
   justify-self: center;
-  width: 288px;
   font-size: 14px;
   line-height: 17px;
   padding: 15px 21px;
-}
+  }
 }

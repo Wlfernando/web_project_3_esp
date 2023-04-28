@@ -1,14 +1,13 @@
-.cover__subtitle {
+.cover__address {
   z-index: 1;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
   font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
 }
 
 @media screen and (max-width: 719px) {
-  .cover__subtitle {
+  .cover__address {
     font-size: 14px;
-    line-height: 16px;
   }
 }
