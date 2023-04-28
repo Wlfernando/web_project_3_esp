@@ -7,12 +7,11 @@
   padding: 13px 20px;
   font-weight: 600;
   font-size: 18px;
-  line-height: 22px;
-  border: 0;
+  line-height: 1.2;
   border-radius: 4px;
   cursor: pointer;
-  z-index: 1;
   transition: background-color 350ms ease-out 0ms;
+  text-decoration-line: none;
 }
 
 .button:hover {
@@ -23,7 +22,6 @@
   .button {
   justify-self: center;
   font-size: 14px;
-  line-height: 17px;
   padding: 15px 21px;
   }
 }
