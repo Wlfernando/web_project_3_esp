@@ -1,7 +1,6 @@
 .cover {
   width: 92.5vw;
-  max-width: 1184px;
-  min-width: 1184px;
+  width: 1184px;
   padding: calc(38% / 2) 0;
   margin-top: 105px;
   display: flex;
